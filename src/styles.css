@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+.App {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-shadow: 0 0 15px red;
+}
+
+h1 {
+  color: white;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+button {
+  background-color: rgb(53, 3, 146);
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  border: 3px solid white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: white;
+}
